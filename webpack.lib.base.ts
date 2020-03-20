@@ -2,7 +2,7 @@ import * as webpack from "webpack";
 import * as path from "path";
 import * as FileManagerWebpackPlugin from "file-callback-webpack-plugin";
 
-let currentDir = path.resolve("./");
+const currentDir = path.resolve("./");
 
 export function getConfig(mode: "development" | "production" | "none"): webpack.Configuration {
     let filename = "jpf-elements.js";

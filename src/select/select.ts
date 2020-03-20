@@ -29,7 +29,7 @@ export class Select<TItem, TValue> extends UiElement<SelectOptions<TItem, TValue
             this.element.appendChild(option);
         }
 
-        var optionsValue = this.options.selectedValue;
+        const optionsValue = this.options.selectedValue;
         if (ko.isObservable(optionsValue)) {
             optionsValue.subscribe((newValue) => {
                 this.element.value = newValue as any;
@@ -37,8 +37,8 @@ export class Select<TItem, TValue> extends UiElement<SelectOptions<TItem, TValue
         }
 
         this.addEventListener("change", () => {
-            var selectedItem = this.options.items[this.element.selectedIndex];
-            var selectedValue = this.options.valueFunction(selectedItem);
+            const selectedItem = this.options.items[this.element.selectedIndex];
+            const selectedValue = this.options.valueFunction(selectedItem);
             if (ko.isObservable(optionsValue)) {
                 optionsValue(selectedValue);
             }

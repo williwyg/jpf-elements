@@ -45,13 +45,11 @@
     "jpf": "2.x"
   },
   "devDependencies": {
-    "jpf": "2.x",
-    "@types/knockout": "^3.4.66",
+    "@types/knockout": "^3.4.67",
     "@types/ua-parser-js": "^0.7.33",
-    "@types/webpack": "^4.4.35",
-    "core-js": "3.6.4",
+    "@types/webpack": "^4.41.7",
     "file-callback-webpack-plugin": "1.0.6",
-    "html-webpack-plugin": "^3.2.0",
+    "jpf": "2.x",
     "listdirs": "^3.1.1",
     "path": "0.12.7",
     "remove-files-webpack-plugin": "1.1.3",
