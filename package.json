@@ -1,6 +1,6 @@
 {
   "name": "jpf-elements",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Javascript Presentation Foundation HtmlElements",
   "keywords": [
     "mvvm",
@@ -38,7 +38,8 @@
     "npmPublish": "npm run webpackLibDevelopment & npm run webpackLibProduction & npm publish",
     "npmAudit": "npm audit",
     "npmAuditFix": "npm audit fix",
-    "npmAuditFixForce": "npm audit fix --force"
+    "npmAuditFixForce": "npm audit fix --force",
+    "npmCacheClean": "npm cache clean --force"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -47,9 +48,9 @@
   "devDependencies": {
     "@types/knockout": "^3.4.67",
     "@types/ua-parser-js": "^0.7.33",
-    "@types/webpack": "^4.41.7",
+    "@types/webpack": "^4.41.10",
     "file-callback-webpack-plugin": "1.0.6",
-    "jpf": "2.x",
+    "jpf": "^2.0.190",
     "listdirs": "^3.1.1",
     "path": "0.12.7",
     "remove-files-webpack-plugin": "1.1.3",
