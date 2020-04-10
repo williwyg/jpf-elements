@@ -28,8 +28,8 @@
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
     <Content Include="package.json" />
-    <Content Include="tsconfig.json" />
     <Content Include="README.md" />
+    <Content Include="tsconfig.json" />
     <TypeScriptCompile Include="src\button\button.ts" />
     <TypeScriptCompile Include="src\div\div.ts" />
     <TypeScriptCompile Include="src\anchor\anchor.ts" />

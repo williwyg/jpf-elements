@@ -1,4 +1,4 @@
-﻿import ko = require("knockout");
+﻿import * as ko from "knockout";
 import { UiElement, UiElementOptions } from "jpf";
 
 export interface InputElementOptions<TInput> extends UiElementOptions {

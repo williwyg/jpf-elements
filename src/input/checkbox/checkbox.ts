@@ -1,4 +1,4 @@
-﻿import ko = require("knockout");
+﻿import * as ko from "knockout";
 import { InputElement, InputElementOptions } from "../inputElement";
 
 export interface CheckBoxOptions extends InputElementOptions<boolean> {
